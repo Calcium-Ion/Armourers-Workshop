@@ -1,3 +1,8 @@
+修改了一下这个东西的问题，原版的检测方法居然就是检测一下文件名，文件名如果不是Armourers-Workshop-版本.jar就会有这个提示，所以干脆把检测删掉了
+```java
+ new RehostedJarHandler(event.getSourceFile(), "Armourers-Workshop-" + LibModInfo.MOD_VERSION + ".jar");
+```
+![img.png](img.png)
 # Armourer's Workshop
 
 Minecraft armour customization mod.
